@@ -1,0 +1,251 @@
+{
+  "revision": "P01",
+  "status": "Studi koordinasi - bukan gambar konstruksi",
+  "site": {
+    "width": 6,
+    "depth": 14,
+    "city": "Surabaya"
+  },
+  "height": {
+    "LT1_FFL": 0,
+    "LT2_FFL": 3.4,
+    "roof_beam_top": 6.8,
+    "beam_depth": 0.5,
+    "LT1_beam_underside": 2.9,
+    "LT2_beam_underside": 6.3,
+    "ceiling_targets": [
+      2.8,
+      6.2
+    ],
+    "illustrative_roof_top": 7.5
+  },
+  "columns": [
+    {
+      "id": "A1",
+      "x_m": 0.15,
+      "y_m": 1.9
+    },
+    {
+      "id": "B1",
+      "x_m": 5.85,
+      "y_m": 1.9
+    },
+    {
+      "id": "A2",
+      "x_m": 0.15,
+      "y_m": 4.8
+    },
+    {
+      "id": "B2",
+      "x_m": 5.85,
+      "y_m": 4.8
+    },
+    {
+      "id": "A3",
+      "x_m": 0.15,
+      "y_m": 9.45
+    },
+    {
+      "id": "B3",
+      "x_m": 5.85,
+      "y_m": 9.45
+    },
+    {
+      "id": "A4",
+      "x_m": 0.15,
+      "y_m": 11.5
+    },
+    {
+      "id": "B4",
+      "x_m": 5.85,
+      "y_m": 11.5
+    },
+    {
+      "id": "A5",
+      "x_m": 0.15,
+      "y_m": 13.85
+    },
+    {
+      "id": "B5",
+      "x_m": 5.85,
+      "y_m": 13.85
+    }
+  ],
+  "beamMembers": [
+    {
+      "suffix": "X1",
+      "p1": [
+        0.15,
+        1.9
+      ],
+      "p2": [
+        5.85,
+        1.9
+      ],
+      "span_m": 5.7
+    },
+    {
+      "suffix": "X2",
+      "p1": [
+        0.15,
+        4.8
+      ],
+      "p2": [
+        5.85,
+        4.8
+      ],
+      "span_m": 5.7
+    },
+    {
+      "suffix": "X3",
+      "p1": [
+        0.15,
+        9.45
+      ],
+      "p2": [
+        5.85,
+        9.45
+      ],
+      "span_m": 5.7
+    },
+    {
+      "suffix": "X4",
+      "p1": [
+        0.15,
+        11.5
+      ],
+      "p2": [
+        5.85,
+        11.5
+      ],
+      "span_m": 5.7
+    },
+    {
+      "suffix": "X5",
+      "p1": [
+        0.15,
+        13.85
+      ],
+      "p2": [
+        5.85,
+        13.85
+      ],
+      "span_m": 5.7
+    },
+    {
+      "suffix": "A12",
+      "p1": [
+        0.15,
+        1.9
+      ],
+      "p2": [
+        0.15,
+        4.8
+      ],
+      "span_m": 2.9
+    },
+    {
+      "suffix": "A23",
+      "p1": [
+        0.15,
+        4.8
+      ],
+      "p2": [
+        0.15,
+        9.45
+      ],
+      "span_m": 4.65
+    },
+    {
+      "suffix": "A34",
+      "p1": [
+        0.15,
+        9.45
+      ],
+      "p2": [
+        0.15,
+        11.5
+      ],
+      "span_m": 2.05
+    },
+    {
+      "suffix": "A45",
+      "p1": [
+        0.15,
+        11.5
+      ],
+      "p2": [
+        0.15,
+        13.85
+      ],
+      "span_m": 2.35
+    },
+    {
+      "suffix": "B12",
+      "p1": [
+        5.85,
+        1.9
+      ],
+      "p2": [
+        5.85,
+        4.8
+      ],
+      "span_m": 2.9
+    },
+    {
+      "suffix": "B23",
+      "p1": [
+        5.85,
+        4.8
+      ],
+      "p2": [
+        5.85,
+        9.45
+      ],
+      "span_m": 4.65
+    },
+    {
+      "suffix": "B34",
+      "p1": [
+        5.85,
+        9.45
+      ],
+      "p2": [
+        5.85,
+        11.5
+      ],
+      "span_m": 2.05
+    },
+    {
+      "suffix": "B45",
+      "p1": [
+        5.85,
+        11.5
+      ],
+      "p2": [
+        5.85,
+        13.85
+      ],
+      "span_m": 2.35
+    }
+  ],
+  "volumes": {
+    "11_Concrete_Beams": 15.450000000000024,
+    "12_Dak_LT2": 5.698920000000004,
+    "13_Stair": 1.1678399999999995,
+    "90_Dak_Atap_OPSI": 7.614000000000005,
+    "10_Concrete_Columns": 5.2200000000000015
+  },
+  "floorArea": 61.465999999999994,
+  "steelAllowanceKg": 4601,
+  "roofAddedDeadLoad": 182.73599999999996,
+  "roofNetAddedDeadLoad": 144.66599999999997,
+  "limits": [
+    "Rebar display diameter, number, spacing and bends are NOT structural design or fabrication data",
+    "Bar meshes omit verified anchorage, splice and support reinforcement detailing; no BBS",
+    "Beam/column/slab/landing envelopes NOT capacity-approved",
+    "No footing sizes, piles, foundation depth or foundation rebar assigned",
+    "Room partitions/doors changed by proposal; furniture, WC headroom and full circulation not certified",
+    "Roof concrete option hidden by default; excluded from default quantities; extra load not analyzed"
+  ]
+}

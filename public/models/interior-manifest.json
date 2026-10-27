@@ -1,0 +1,21 @@
+{
+  "source": "RevCB",
+  "source_sha256": "33dd0feec7ece488c0a5f678146d427fb8f7688097d14fcb908f39397be4572b",
+  "floorToFloor": 2.8,
+  "units": "metres",
+  "notCoordinatedWithP01": true,
+  "exports": [
+    {
+      "floor": 1,
+      "objects": 305,
+      "bytes": 4554768,
+      "file": "interior-lt1.glb"
+    },
+    {
+      "floor": 2,
+      "objects": 254,
+      "bytes": 2881888,
+      "file": "interior-lt2.glb"
+    }
+  ]
+}
